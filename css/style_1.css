@@ -50,3 +50,23 @@ img {
 	width: 30%;
 	margin: 0.5%;
 }
+
+@media screen and (min-width: 480px) {
+
+    img{
+        width:49%;
+    }
+	.flex-container > div {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+    img{
+        width:100%;
+    }
+	.flex-container > div {
+		width: 100%;
+	}
+}
